@@ -14,5 +14,8 @@
 IBOutlet UITableView *tableview;
     
     NSArray *menu;
+    NSArray *imgs;
+ 
+    __weak IBOutlet UIImageView *imgView;
 }
 @end
